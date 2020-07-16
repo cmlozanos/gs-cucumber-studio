@@ -5,10 +5,10 @@ before_install:
   - rvm install 2.3
   - rvm use 2.3
   - gem install hiptest-publisher
-  - hiptest-publisher -c hipster-publisher.conf --only=tests --test-run-id=1358
+  - hiptest-publisher -c /src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --only=tests --test-run-id=1358
 
 script:
   - mvn package
 
 after_script:
-  - hiptest-publisher -c hipster-publisher.conf --test-run-id=1358
+  - hiptest-publisher -c /src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --test-run-id=1358
