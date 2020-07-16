@@ -5,10 +5,10 @@ before_install:
   - rvm install 2.6.2
   - rvm use 2.6.2
   - gem install hiptest-publisher
-  - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --only=tests --test-run-id=435601 --force
+  - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --test-run-id 435601 --without=actionwords --force
 
 script:
   - ./gradlew build
 
 after_script:
-  - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --test-run-id=435601 --force
+  - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --push ./src/test/java/cmls/spring/cucumberstudio/hiptest/results-435601.xml  --test-run-id 435601  --force --push-format junit
