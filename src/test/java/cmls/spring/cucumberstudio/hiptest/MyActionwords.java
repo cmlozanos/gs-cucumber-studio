@@ -1,4 +1,4 @@
-package cmls.spring.cucumberstudio.hiptest.customization;
+package cmls.spring.cucumberstudio.hiptest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import cmls.spring.cucumberstudio.exceptions.NotValidUserException;
-import cmls.spring.cucumberstudio.hiptest.Actionwords;
 import cmls.spring.cucumberstudio.service.LoginService;
 
 public class MyActionwords extends Actionwords {

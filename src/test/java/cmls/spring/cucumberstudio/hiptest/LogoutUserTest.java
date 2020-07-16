@@ -1,6 +1,5 @@
 package cmls.spring.cucumberstudio.hiptest;
 
-import cmls.spring.cucumberstudio.hiptest.customization.MyActionwords;
 import junit.framework.TestCase;
 
 public class LogoutUserTest extends TestCase {
