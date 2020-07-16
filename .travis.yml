@@ -8,7 +8,7 @@ before_install:
   - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --only=tests --test-run-id=435601
 
 script:
-  - mvn package
+  - gradle build
 
 after_script:
   - hiptest-publisher -c ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --test-run-id=435601
