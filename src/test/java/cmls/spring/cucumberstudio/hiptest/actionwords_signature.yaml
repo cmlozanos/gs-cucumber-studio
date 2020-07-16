@@ -1,0 +1,34 @@
+---
+- name: the email
+  uid: e195b1b6-5697-4d33-8f84-5f7297c6ea6c
+  parameters:
+  - name: email
+  body_hash: 4a9ee7c9c78f440101889150e2775612
+- name: the Login Service validate email
+  uid: 0a8cf443-d415-446c-911b-9576331110ec
+  parameters: []
+  body_hash: 67eca875d508d03dc6714a9f82418146
+- name: assert user logged
+  uid: 46495842-2f2e-4d29-8c6e-54094e4eb2e2
+  parameters: []
+  body_hash: 27870f020df951ad035c7bc5ebdf023f
+- name: Login Service
+  uid: af92faba-9e85-47c4-9790-b7fbc94c0b2d
+  parameters: []
+  body_hash: 6e073eaf6c3f08f0a747419edc8c9f4b
+- name: assert user returned
+  uid: f6e43c35-424f-4c5d-8cdc-8a52e0125c1d
+  parameters: []
+  body_hash: 20851675c6c0560b77eecbd04e6a00a0
+- name: assert user not logged
+  uid: 3a6ce881-30ef-453a-9bb6-47fe24c6ddba
+  parameters: []
+  body_hash: 8ec19501002adb48ae7a1a35d1d0b397
+- name: assert throw Not Valid User exception
+  uid: e704f9fd-5214-47bd-ba70-a2607b60a188
+  parameters: []
+  body_hash: 70af27fdac1e9b913737fda81775d8c9
+- name: Login Service logout
+  uid: 6e6ba4fc-ac84-435f-9156-830a5bba69cf
+  parameters: []
+  body_hash: 888be2fa71c0434ca6562f89a054d40c
