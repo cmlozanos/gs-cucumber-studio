@@ -11,4 +11,4 @@ script:
   - ./gradlew build
 
 after_script:
-  - hiptest-publisher --config-file ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --push ./src/test/java/cmls/spring/cucumberstudio/hiptest/results-435601.xml --test-run-id 435601 --push-format junit
+  - hiptest-publisher --config-file ./src/test/java/cmls/spring/cucumberstudio/hiptest/hiptest-publisher.conf --push ./src/test/java/cmls/spring/cucumberstudio/hiptest/tests/results-435601.xml --test-run-id 435601 --push-format junit
