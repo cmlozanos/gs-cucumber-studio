@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 public class LoginWithUserEmailTest extends TestCase {
 
-    public MyActionwords actionwords = new MyActionwords();
+    public Actionwords actionwords = new Actionwords();
 
     public void testAdministratorUserUida7db6217db6b445baa38490b02bfb241() {
         // Given the email "admin@email.com"
